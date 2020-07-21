@@ -1,0 +1,126 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #f6f6f6;
+  font-family: 'Raleway', sans-serif;
+}
+
+/** HEADER **/
+.navbar {
+
+  padding: 0.5rem 1rem ;
+  padding-top: 1.2rem;
+  padding-bottom: 0rem;
+
+}
+
+#logo-img {
+  background: url('Minimalistic_artwork_fusion_zometool_1920x1080.jpg') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-ic-position{
+	text-align: right;
+}
+
+.margi{
+	margin-top: 100px
+}
+
+.navbar-brandx {
+  display: inline-block;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar-brandx:hover, .navbar-brandx:focus {
+  text-decoration: none;
+}
+
+.jumbotron {
+	margin-top: 25px;
+ text-align: center;
+  background-color: #878787;
+
+}
+.lead {
+  font-size: 1rem;
+  margin-left:25px;margin-right:25px;
+  font-weight: 300;
+  margin-bottom: 150px;
+}
+
+
+#home-tile , #Feature-tile, #Pricing-tile {
+background-color: red;
+  height: 400px;
+  width: 100%;
+
+  margin-bottom: 15px;
+  position: relative;
+  /*border: 2px solid #3F0C1F;*/
+  overflow: hidden;
+
+
+}
+#home-tile:hover, #Feature-tile:hover, #Pricing-tile:hover {
+  box-shadow: 0 1px 5px 1px #878787;
+}
+
+#home-tile{
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+#Feature-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#home-tile span, #Feature-tile span, #Pricing-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  text-transform: lowercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+#home-tile , #Feature-tile, #Pricing-tile {
+background-color: white;}
+
+
+.btn-primary {
+  color: white;
+  background-color: darkgrey;
+  	border-color: darkgray;
+  	border-radius: 25px;
+  
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: black;
+  border-color: black;}
+
+#tile-margi{
+margin-top: -150px;
+
+}
