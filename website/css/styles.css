@@ -183,3 +183,14 @@ form{
 #upload-photo{
 	margin-top: 100px;
 }
+a{
+	color: #505050;
+}
+a:hover{
+text-decoration: none;
+	color:blue;
+}
+
+button>a:hover{
+	color:#878787;
+}
