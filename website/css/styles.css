@@ -5,6 +5,9 @@ body {
   font-family: 'Raleway', sans-serif;
   text-transform: lowercase;
 }
+.bg-light {
+  background-color: #f6f6f6!important;
+}
 
   #myBtn {
   display: none; /* Hidden by default */
