@@ -3,13 +3,14 @@ body {
   color: #fff;
   background-color: #f6f6f6;
   font-family: 'Raleway', sans-serif;
+  text-transform: lowercase;
 }
 
   #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 25px; /* Place the button 30px from the right */
+  bottom: 27px; /* Place the button at the bottom of the page */
+  right: 0px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
@@ -193,4 +194,53 @@ text-decoration: none;
 
 button>a:hover{
 	color:#878787;
+}
+
+.panel-footer{
+margin-top: 40px;
+	color: white;
+	background-color: #878787;
+	margin-bottom: 5px;
+	padding-top: 10px;padding-bottom: 5px;
+}
+
+#img-back{
+	background-color: #f6f6f6;
+}
+
+
+.fa {
+  padding: 6.9px;
+  height:30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 0px;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: black;
+  color: white;
 }
