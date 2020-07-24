@@ -5,6 +5,14 @@ body {
   font-family: 'Raleway', sans-serif;
   text-transform: lowercase;
 }
+
+.dark-mode {
+color: white!important;
+  background-color: black;
+  
+ font-size: 16px;
+font-family: 'Raleway', sans-serif;
+  text-transform: lowercase;}
 .bg-light {
   background-color: #f6f6f6!important;
 }

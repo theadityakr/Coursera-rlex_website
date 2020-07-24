@@ -21,3 +21,8 @@ function topFunction() {
 function myFunction(x) {
   x.classList.toggle("change");
 } 
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}

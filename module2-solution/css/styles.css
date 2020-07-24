@@ -1,0 +1,160 @@
+body {
+  font-size: 20px;
+  color: black;
+  font-weight: 700
+  background-color: white;
+font-family: 'Comic Neue', cursive;
+  text-align: center;
+}
+
+#tile-para{
+right: 0;
+	position: relative;
+	color: black;
+	margin-right: 5px;
+	margin-left: 5px;
+	top:40px;
+
+	text-align: left;
+  font-size: 1em;
+  font-weight: 700;
+  overflow:hidden;
+
+
+}
+
+#chicken , #beef, #sushi {
+position: relative;
+  height: 200px;
+  width: 100%;
+
+  margin-bottom: 15px;
+  border: 4px solid black;
+  overflow: hidden;
+
+
+}
+#chicken:hover, #beef:hover, #sushi:hover {
+
+  box-shadow: 0 1px 5px 1px #878787;
+}
+
+
+#chicken span, #beef span, #sushi span {
+position: absolute;
+background-color: pink;
+right:-4px;
+
+bottom: 150px;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 800;
+  color: black;
+  box-sizing: border-box;
+  padding: 15px;
+  border: 4px solid black;
+
+ 
+
+}
+
+#beef span{
+background-color: tomato;}
+#sushi span {
+background-color: lightyellow;}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+#chicken , #beef, #sushi {
+background-color: #878787;
+}
+
+
+
+@media (min-width: 767px) {
+  .container {
+    max-width: 719px;
+  }
+}
+
+@media (min-width: 768px) and ( max-width: 991px) {
+  .container {
+    min-width: 720px;
+    max-width: 943px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-12,.col-lg-6,.col-lg-12,.col-xl-4{
+  position: relative;
+  width: 90%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+@media (min-width: 767px) {
+  
+  .col-md-12 {
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: 90%;
+  }}
+  
+
+@media (min-width: 768px) and ( max-width: 991px) {
+  
+  .col-lg-6 {
+    -ms-flex: 0 0 45%;
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+ 
+  .col-lg-12 {
+    -ms-flex: 0 0 93%;
+    flex: 0 0 93%;
+    max-width: 93%;
+  }
+ }
+@media (min-width:992px) {
+ 
+  .col-xl-4 {
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+
+  
+  }
+
+.col-xl-s {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  
+  
